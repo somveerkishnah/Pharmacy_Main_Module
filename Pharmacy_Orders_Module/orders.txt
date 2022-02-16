@@ -1,0 +1,4 @@
+
+DATE : 25/02/2022 
+ORDER : Paracetamol
+QUANTITY : 50
