@@ -6,7 +6,7 @@ void products()
     FILE * ptr;
     int c; char add[20];
 
-    ptr = fopen("C:/softwareengineering/Pharmacy_Project/Pharmacy_ViewProduct_Module/productMenu.txt", "r");
+    ptr = fopen("Pharmacy_ViewProduct_Module/productDetails.txt", "r");
 
     if(ptr == NULL)
         printf("File not found\n");
