@@ -1,7 +1,7 @@
 #ifndef ADD_PRODUCT_H_INCLUDED
 #define ADD_PRODUCT_H_INCLUDED
 
-void Addproducts()
+void addProducts()
 {
     char productName[50];
     int quantity,i,n;
@@ -10,7 +10,7 @@ void Addproducts()
     scanf("%d",&n);
 
     FILE *fptr;
-    fptr = (fopen("Products.txt", "a"));
+    fptr = (fopen("Pharmacy_Product_Module/productDetails.txt", "a"));
 
     if(fptr==NULL){
         printf("Error!");
