@@ -1,4 +1,45 @@
-#include <stdio.h>
+#include<stdio.h>
+void print_file(FILE *fp);
+int main()
+{
+char filename[100];
+char str[100];
+
+FILE * fp1, *fp2;
+int del_line_no;
+int line_no;
+
+printf("Enter the file name:");
+scanf("%s",filename);
+
+fp1=fopen(filename,"r");
+printf("\nContent of file before modification:\n");
+print_file(fp1);
+rewind(fp1);
+
+printf("\nEnter the no. of the line to be deleted:\n");
+scanf("%d",&del_line_no);
+
+while()
+
+
+
+return 0;
+}
+
+void print_file(FILE *fp)
+
+{
+  char ch;
+  while(ch=fgetc(fp)!=EOF)
+  {
+    printf("%c",ch);
+  }
+
+}
+
+
+/*#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -45,8 +86,8 @@ int main()
   // was and exit with a non-zero error status
   if (file == NULL || temp == NULL)
   {
-    printf("Error opening file(s)\n");
-    return 1;
+    /*printf("Error opening file(s)\n");
+    return 1;*/
   }
   
   // current_line will keep track of the current line number being read
@@ -78,4 +119,4 @@ int main()
   rename(temp_filename, filename);
 
   return 0;
-}
+}*/
