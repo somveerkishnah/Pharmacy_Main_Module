@@ -1,3 +1,0 @@
-d   Name    Hospital   Age
-2    Ross    Mineral    57
-    ÿ
