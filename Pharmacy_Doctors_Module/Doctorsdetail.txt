@@ -1,5 +1,4 @@
 Id   Name    Hospital   Age
-1    Amelia  Welkin     32
 2    Ross    Mineral    57
 3    Lee     Lifecare   45
     
