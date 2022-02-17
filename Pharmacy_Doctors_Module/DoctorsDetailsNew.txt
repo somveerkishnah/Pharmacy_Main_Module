@@ -1,4 +1,3 @@
-Id  Name      HospitalName   Age
+d  Name      HospitalName   Age
  1   Amelia    Mineral        28
- 3   Lee       Welkin         67
  7   Ross      Mayfair        51ÿ
