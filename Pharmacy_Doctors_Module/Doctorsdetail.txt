@@ -1,4 +1,3 @@
-Id   Name    Hospital   Age
+d   Name    Hospital   Age
 2    Ross    Mineral    57
-3    Lee     Lifecare   45
-    
+    ÿ
