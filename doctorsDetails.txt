@@ -1,4 +1,0 @@
-Id    Name     HospitalName  YearsOfExp
-1     Amelia   Mineralcare   6
-2     Josh     Welkin        10
-3     Lee      Lifecare      2
