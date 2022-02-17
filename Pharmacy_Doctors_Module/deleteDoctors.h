@@ -1,9 +1,9 @@
 void read()
 {
-    FILE *ptr;
+   FILE *ptr;
     int c;
     char name[10];
-    ptr=fopen("doctorsDetails.txt","r");
+    ptr=fopen("C:/Users/23059/OneDrive/Desktop/Amiira/Year 2 Sem 1/Software Engineering/Project/Pharmacy_Main_Module/doctorDetails.txt","r");
 
    if(ptr==NULL)
    {
@@ -18,12 +18,13 @@ void read()
     printf("%c",c);
    }
    
-   ptr=fopen("doctorsDetail.txt","w");
+   ptr=fopen("C:/Users/23059/OneDrive/Desktop/Amiira/Year 2 Sem 1/Software Engineering/Project/Pharmacy_Main_Module/doctorsDetails.txt","w");
    if(ptr==NULL)
    {
        printf("Error\n");
        exit(1);
    }
+ 
+       fclose(ptr);
+     
 }
-   
-
