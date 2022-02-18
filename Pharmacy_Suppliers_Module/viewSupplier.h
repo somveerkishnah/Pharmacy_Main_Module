@@ -1,0 +1,4 @@
+#ifdef VIEW_SUPPLIER_FILE
+#define VIEW_SUPPLIER_FILE
+
+#endif
