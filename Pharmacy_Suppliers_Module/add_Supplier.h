@@ -1,10 +1,22 @@
 #ifdef ADD_SUPPLIER_FILE
 #define ADD_SUPPLIER_FILE
+#include<stdlib.h>
+#define BUFFER_SIZE 1000
+
+void readFile(FILE *fptr)
+{
+    char ch;
+    do
+    {
+        ch=fgetc(fptr);
+        putchar(ch);
+    } while (ch!=EOF);
+    
+}
 
 void addsupplier()
 {
     int num;
-   
      char dataToAppend[BUFFER_SIZE];
 
     printf("Enter the number of suppliers that you want to add info:\n");
@@ -18,7 +30,6 @@ void addsupplier()
         printf("Error!");
         exit(EXIT_FAILURE);
     }
-
 
     
    printf("Enter data to append\n");
