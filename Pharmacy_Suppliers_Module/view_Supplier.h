@@ -1,17 +1,13 @@
 #ifndef SUPPLIER_FILE
 #define SUPPLIER_FILE
 #include<stdlib.h>
-#define BUFFER_SIZE 1000
 
 void viewsupplier()
 {
     FILE * ptr;
     int c;
-<<<<<<< HEAD
-    ptr=fopen("SupplierInfo.txt","r");
-=======
-    ptr=fopen("supplier_Details.txt","r");
 
+    ptr=fopen("supplier_Details.txt","r");
 
     if(ptr == NULL)
     {
