@@ -14,7 +14,7 @@ int menu()
    
       printf("\nChoose from the following:\n");
       printf("1. View Supplier\n");
-      printf("2. Delete line\n");
+     // printf("2. Delete line\n");
  
  
       scanf("%d",&choice);
@@ -25,10 +25,10 @@ int menu()
             viewsupplier();
             break;
          }
-          case 2: {
-             delete_Supplier();
-             break;
-         }
+          //case 2: {
+            // delete_Supplier();
+            // break;
+         //}
          
          
           default:
