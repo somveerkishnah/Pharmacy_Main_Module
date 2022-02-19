@@ -27,7 +27,7 @@ void addsupplier()
    fputs(dataToAppend,fptr);
 
 
-   fptr=freopen("C:/Users/MAMTA/OneDrive/Desktop/vaishsupplier/SupplierInfo.txt","r",fptr);
+   fptr=freopen("supplier_Details.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
    printf("\n");
