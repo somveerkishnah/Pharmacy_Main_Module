@@ -1,6 +1,5 @@
 #include "view_Supplier.h"
-#include "add_Supplier.h"
-
+#include "delete_Supplier.h"
 void output(float);
 
 int menu()
@@ -12,7 +11,7 @@ int menu()
    
       printf("\nChoose from the following:\n");
       printf("1. View Supplier\n");
-      printf("2. Add Supplier\n");
+      printf("2. Delete Supplier\n");
 
       scanf("%d",&choice);
 
@@ -22,9 +21,10 @@ int menu()
             viewsupplier();
             break;
          }
-          case 2: {
-             addSupplier();
-             break;
+          
+         case 2:{
+           deleteSupplier();
+           break;
          }
           default:
           printf("Wrong input, try again!\n");
