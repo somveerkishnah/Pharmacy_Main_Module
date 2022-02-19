@@ -8,3 +8,4 @@ Detol			    Sanitary Products	      10,500
 Merlin			    Sanitizer		          5000
 Bioderma            Skin Products             1000
 WIPES               Beauty Products           500
+CRYSTAL             Essential Products        10000
