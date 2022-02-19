@@ -34,5 +34,4 @@ void addsupplier()
 
     fclose(fptr);
 }
-
 #endif
