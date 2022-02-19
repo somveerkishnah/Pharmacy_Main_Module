@@ -7,9 +7,9 @@ void viewsupplier()
 {
     FILE * ptr;
     int c;
-<<<<<<< HEAD
+
     ptr=fopen("SupplierInfo.txt","r");
-=======
+
     ptr=fopen("supplier_Details.txt","r");
 
 
@@ -19,7 +19,7 @@ void viewsupplier()
     }
     else
     {
-        printf("File opened in read mode");
+        printf("File opened in read mode\n");
     } 
     while((c=fgetc(ptr))!=EOF)
     {
