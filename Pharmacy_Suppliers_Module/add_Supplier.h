@@ -14,7 +14,7 @@ void readFile(FILE *fptr)
     
 }
 
-void addsupplier()
+void addSupplier()
 {
     int num;
     char dataToAppend[BUFFER_SIZE];
@@ -35,7 +35,6 @@ void addsupplier()
    fflush(stdin);
    fgets(dataToAppend,BUFFER_SIZE,stdin);
    fputs(dataToAppend,fptr);
-
 
    fptr=freopen("supplier_Details.txt","r",fptr);
    printf("\nSuccessfully appended data\n");

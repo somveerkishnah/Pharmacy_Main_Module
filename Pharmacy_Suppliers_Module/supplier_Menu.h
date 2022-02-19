@@ -23,7 +23,7 @@ int menu()
             break;
          }
           case 2: {
-             addsupplier();
+             addSupplier();
              break;
          }
           default:
