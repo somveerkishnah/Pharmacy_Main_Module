@@ -1,6 +1,5 @@
-Supplier Brand		Types of Products         Total Cost Price(Rs)
+upplier Brand		Types of Products         Total Cost Price(Rs)
 Johnson		    	Baby products             10,000
-La Roche Posay      Skin Products	          25,000
 Leo Pharma		    Antibiotics		          40,000
 CS.Kang			    Vitamins and boosters     5000
 Sugar Cosmetics		Cosmetics  		          12,000
@@ -8,4 +7,4 @@ Detol			    Sanitary Products	      10,500
 Merlin			    Sanitizer		          5000
 Bioderma            Skin Products             1000
 WIPES               Beauty Products           500
-CRYSTAL             Essential Products        10000
+CRYSTAL             Essential Products        10000ÿ
