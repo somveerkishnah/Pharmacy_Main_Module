@@ -7,7 +7,11 @@ void viewsupplier()
 {
     FILE * ptr;
     int c;
-    ptr=fopen("Pharmacy_Suppliers_Module/SupplierInfo.txt","r");
+<<<<<<< HEAD
+    ptr=fopen("SupplierInfo.txt","r");
+=======
+    ptr=fopen("supplier_Details.txt","r");
+
 
     if(ptr == NULL)
     {
