@@ -38,7 +38,7 @@ int menu()
       switch (choice)
       {
           case 1: {
-            views();
+            view();
             break;
          }
           case 2: {
