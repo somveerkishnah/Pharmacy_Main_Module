@@ -50,12 +50,13 @@ int main()
              customer_Menu();
              break;
         }
-        /*  
+        
         case 3: {
               
+              supplier_Menu();
               break;
         }
-
+       /*   
         case 4: {
               #include "Pharmacy_Doctors_Module/doctors_Menu.h"
               break;
