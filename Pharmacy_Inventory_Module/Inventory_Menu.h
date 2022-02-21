@@ -8,7 +8,7 @@ void Inventory_Menu(){
     printf("\n\n\n\n\n\t~~~~\tWELCOME TO INVENTORY\t~~~~\t\n\n");
       
       while(true){
-      printf("\nChoose from the following:\n");
+      printf("\n\n\nChoose from the following:\n");
       printf("1. View Inventory\n");
       printf("2. Exit Program completely\n");
       printf("3. Return to Main Menu\n");

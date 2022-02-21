@@ -4,6 +4,7 @@ void inventoryView(){
     FILE *ptr;
     FILE *ptr2;
     FILE *ptr3;
+    FILE *ptr4;
     ptr=fopen("Pharmacy_Sales_Module/SalesDetail.txt","r");
     ptr2=fopen("Pharmacy_Orders_Module/orders.txt","r");
     ptr3=fopen("Pharmacy_Inventory_Module/Inventory.txt","w");
@@ -34,5 +35,11 @@ void inventoryView(){
     printf(" Content of orders.txt copied to Inventory.txt\n\n");
     fclose(ptr2);
     fclose(ptr3);
+    ptr4=fopen("Pharmacy_Inventory_Module/Inventory.txt","r");
+    char c4;
+    while((c4=fgetc(ptr4))!= EOF){
+        printf("%c",c4);
+    }
+    fclose(ptr4);
 }
 #endif
