@@ -19,12 +19,8 @@ int menu()
       printf("\nChoose from the following:\n");
       printf("1. View Supplier\n");
       printf("2. Delete line\n");
-<<<<<<< HEAD
-=======
       printf("3. Add supplier\n");
- 
->>>>>>> bf4ba23be7f26897858acb7eeab1879152b04a03
- 
+
       scanf("%d",&choice);
  
       switch (choice)
@@ -35,7 +31,7 @@ int menu()
          }
           case 2: {
              deleteSupplier();
-<<<<<<< HEAD
+
              break;
          }
 =======
