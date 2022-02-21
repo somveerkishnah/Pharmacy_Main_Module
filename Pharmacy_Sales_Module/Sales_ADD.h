@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int Add()
 {
    int num,n;
    char name[100];

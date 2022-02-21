@@ -4,7 +4,7 @@
 void addProducts()
 {
     char productName[50];
-    int quantity,i,n;
+    int quantity,cost,i,n;
 
     printf("Enter the number of products you want to add: ");
     scanf("%d",&n);
@@ -21,10 +21,13 @@ void addProducts()
         printf("For Product%d\nEnter Product name: ",i+1);
         scanf("%s",productName);
 
+        printf("Enter the cost per unit: ");
+        scanf("%d",&cost);
+
         printf("Enter quantity: ");
         scanf("%d",&quantity);
 
-        fprintf(fptr,"\nName: %s \nQuantity: %d \n",productName,quantity);
+        fprintf(fptr,"%s \t\t\t\t%d \t\t\t\t%d\n",productName,cost,quantity);
     }
     fclose(fptr);
 }
