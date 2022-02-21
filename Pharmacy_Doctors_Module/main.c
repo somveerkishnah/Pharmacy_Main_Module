@@ -1,8 +1,12 @@
 #include <stdio.h>
-#include"deleteDoctors.h"
+//#include"deleteDoctors.h"
+#include"viewDoctors.h"
+//#include"addDoctors.h"
       int main() {
         
-        delete();
+        //delete();
+        view();
+        //add();
        
       }
 
