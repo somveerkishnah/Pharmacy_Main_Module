@@ -23,7 +23,7 @@ void addsupplier()
     scanf("%d",&num);
 
     FILE *fptr;
-    fptr=fopen("SupplierInfo.txt","a");
+    fptr=fopen("Supplier_Details.txt","a");
 
     if(fptr==NULL)
     {
@@ -37,7 +37,7 @@ void addsupplier()
    fputs(dataToAppend,fptr);
 
 
-   fptr=freopen("SupplierInfo.txt","r",fptr);
+   fptr=freopen("Supplier_Details.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
    printf("\n");
