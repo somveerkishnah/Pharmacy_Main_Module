@@ -1,4 +1,4 @@
-#ifdef ADD_DOCTOR_FILE
+#ifndef ADD_DOCTOR_FILE
 #define ADD_DOCTOR_FILE
 
 void add()
