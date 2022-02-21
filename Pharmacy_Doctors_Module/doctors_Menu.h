@@ -38,15 +38,15 @@ int menu()
       switch (choice)
       {
           case 1: {
-            viewsDoctors();
+            views();
             break;
          }
           case 2: {
-             deleteDoctors();
+             delete();
              break;
          }
           case 3: {
-              addDoctors();
+              add();
               break;
           }
 
