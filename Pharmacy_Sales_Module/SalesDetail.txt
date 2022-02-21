@@ -9,3 +9,17 @@ Vaseline         206
 Efferalgan       467
 Vaseline         206
 
+<<<<<<< HEAD
+=======
+=======
+Vaseline         206
+>>>>>>> e1380e2c8457688510af8d7ea71f8f400f750408
+Xanax       65
+methadone       20
+panadol       500
+w       500
+y       500
+j       0
+Panadol       32759
+Extra       0
+>>>>>>> ea975634888169a7cf57342e25e882221d83df8f

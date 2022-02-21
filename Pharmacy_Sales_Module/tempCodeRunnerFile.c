@@ -45,4 +45,11 @@ int main()
       }while(choice !=0);
 
 }
+<<<<<<< HEAD
 #endif
+=======
+#endif
+
+
+
+>>>>>>> ea975634888169a7cf57342e25e882221d83df8f
