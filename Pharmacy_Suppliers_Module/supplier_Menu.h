@@ -37,6 +37,7 @@ int menu()
          }
           case 3: {
               addsupplier();
+              break;
           }
 
           case 4: {
