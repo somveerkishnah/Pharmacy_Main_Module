@@ -10,7 +10,7 @@ void addProducts()
     scanf("%d",&n);
 
     FILE *fptr;
-    fptr = (fopen("Pharmacy_Product_Module/productDetails.txt", "a"));
+    fptr = (fopen("productDetails.txt", "a"));
 
     if(fptr==NULL){
         printf("Error!");
@@ -28,4 +28,8 @@ void addProducts()
     }
     fclose(fptr);
 }
- #endif
+
+    
+
+
+#endif
