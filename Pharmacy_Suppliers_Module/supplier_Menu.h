@@ -15,6 +15,7 @@ int menu()
       printf("\nChoose from the following:\n");
       printf("1. View Supplier\n");
       printf("2. Delete line\n");
+      printf("3. Add Supplier\n");
  
  
       scanf("%d",&choice);
