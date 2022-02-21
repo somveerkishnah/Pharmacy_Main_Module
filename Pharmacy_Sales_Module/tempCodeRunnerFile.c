@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main()
@@ -72,6 +73,8 @@ int main()
 >>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
 =======
 >>>>>>> 2502e02b05be733f5821dcb6fe81b36dc306ae34
+=======
+>>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
 #ifndef SALES_MENU_FILE
 #define SALES_MENU_FILE
 
@@ -84,6 +87,7 @@ int main()
 
 int main()
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   Add();
   Delete();
@@ -113,6 +117,8 @@ int main()
 #endif
 >>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
 =======
+=======
+>>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
   int choice;
     printf("1.View sales\n");
     printf("2.Add new Sales\n");
@@ -152,4 +158,7 @@ int main()
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2502e02b05be733f5821dcb6fe81b36dc306ae34
+=======
+>>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
