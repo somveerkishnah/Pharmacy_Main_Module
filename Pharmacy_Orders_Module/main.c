@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "Add_Orders.h"
+#include "viewOrders.h"
 
 int main()
 {
@@ -13,12 +15,12 @@ int main()
     switch(choice)
     {
         case 1:
-
+                ADD_ORDERS()
             break;
         case 2:
-
+                viewO()
             break;
     }
 
-
+    return 0;
 }
