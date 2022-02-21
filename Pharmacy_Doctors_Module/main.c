@@ -2,13 +2,12 @@
 //#include"deleteDoctors.h"
 #include"viewDoctors.h"
 //#include"addDoctors.h"
-      int main() {
-        
-        //delete();
-        view();
-        //add();
-       
-      }
+int main() 
+{
+  //delete();
+  view();
+  //add();
+}
 
 
 
