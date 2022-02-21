@@ -1,4 +1,0 @@
-#ifdef ADD_SUPPLIER_FILE
-#define ADD_SUPPLIER_FILE
-
-#endif
