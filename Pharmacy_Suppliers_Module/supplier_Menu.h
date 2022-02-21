@@ -20,7 +20,8 @@ int supplier_Menu()
       printf("1. View Supplier\n");
       printf("2. Delete line\n");
       printf("3. Add Supplier\n");
-      printf("4. Exit");
+      printf("4. Exit\n");
+      printf("5. Return to main menu\n");
  
  
       scanf("%d",&choice);
@@ -42,6 +43,10 @@ int supplier_Menu()
 
           case 4: {
               exit(0);
+          }
+
+          case 5:{
+              return 0;
           }
          
           default:
