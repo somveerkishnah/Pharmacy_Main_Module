@@ -1,0 +1,15 @@
+
+SALES TXT:
+Products         Quantity   
+
+Immodium         104
+Fervex           156
+Sanatogen        230
+Doliprane        129
+Cough-en         257
+Vaseline         206
+
+ORDERS TXT:
+DATE : 25/02/2022 
+ORDER : Paracetamol
+QUANTITY : 50
