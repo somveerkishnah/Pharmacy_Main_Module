@@ -27,9 +27,9 @@ int menu()
       while(true)
     {
       printf("\nChoose from the following:\n");
-      printf("1. View Supplier\n");
-      printf("2. Delete line\n");
-      printf("3. Add Supplier\n");
+      printf("1. View Doctors\n");
+      printf("2. Delete Doctor's Detail\n");
+      printf("3. Add Doctor\n");
       printf("4. Exit");
  
  
