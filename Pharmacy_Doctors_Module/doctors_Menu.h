@@ -30,9 +30,9 @@ int menu()
       printf("1. View Doctors\n");
       printf("2. Delete Doctor's Detail\n");
       printf("3. Add Doctor\n");
-      printf("4. Exit");
+      printf("4. Exit\n");
  
- 
+      printf("Enter your choice:\n");
       scanf("%d",&choice);
  
       switch (choice)
