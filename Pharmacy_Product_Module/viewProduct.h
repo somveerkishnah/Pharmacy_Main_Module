@@ -3,10 +3,10 @@
 
 void products()
 {
-    FILE * ptr;
+    FILE *ptr;
     int c; char add[20];
 
-    ptr = fopen("Pharmacy_ViewProduct_Module/productDetails.txt", "r");
+    ptr = fopen("Pharmacy_Product_Module/productDetails.txt", "r");
 
     if(ptr == NULL)
         printf("File not found\n");
