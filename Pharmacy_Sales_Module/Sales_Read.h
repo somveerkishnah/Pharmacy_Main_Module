@@ -1,6 +1,7 @@
+
 #ifndef VIEW_Sales_FILE
 #define VIEW_Sales_FILE
-#include <stdlib.h>
+
 
 void viewSales()
 {
@@ -22,5 +23,8 @@ void viewSales()
         printf("%c",ch);
     }
     fclose(fptr);
+ 
 }
+
+
 #endif
