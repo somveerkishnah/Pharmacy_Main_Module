@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 
+=======
+#include <string.h>
+#include <stdbool.h>
+ 
+>>>>>>> 27d51bd413b59f3eb6c03409eebb84656e63626c
 int main()
 {
    int num,n;
