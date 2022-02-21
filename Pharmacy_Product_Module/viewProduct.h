@@ -1,12 +1,13 @@
 #ifndef PRODUCT_NAME_H_INCLUDED
 #define PRODUCT_NAME_H_INCLUDED
 
-void products()
+int viewProducts()
 {
+    int n = 0;
     FILE *ptr;
     int c; char add[20];
 
-    ptr = fopen("Pharmacy_Product_Module/productDetails.txt", "r");
+    ptr = fopen("productDetails.txt", "r");
 
     if(ptr == NULL)
         printf("File not found\n");
@@ -16,8 +17,10 @@ void products()
     while( (c = fgetc(ptr)) != EOF)
     {
         printf("%c", c);
+
     }
-       
+    printf("\n\n");  
+    fclose(ptr);
 }
 
 #endif
