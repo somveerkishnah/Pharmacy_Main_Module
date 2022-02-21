@@ -6,7 +6,7 @@
  
 void output(float);
  
-int menu()
+int supplier_Menu()
 {
     float result;
   
