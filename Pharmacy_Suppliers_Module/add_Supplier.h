@@ -35,6 +35,7 @@ void addsupplier()
    fflush(stdin);
    fgets(dataToAppend,BUFFER_SIZE,stdin);
    fputs(dataToAppend,fptr);
+   printf("\n");
 
 
    fptr=freopen("Supplier_Details.txt","r",fptr);

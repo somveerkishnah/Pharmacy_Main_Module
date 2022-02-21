@@ -1,10 +1,10 @@
-#ifdef ADD_DOCTOR_FILE
+#ifndef ADD_DOCTOR_FILE
 #define ADD_DOCTOR_FILE
 
 void add()
 {
     FILE * ptr;
-    int c, id, age;
+    int n, c, id, age;
     char docName[100], hospitalName[100];
 
     printf("Enter the number of doctors you want to add: ");
@@ -26,7 +26,7 @@ void add()
         scanf("%s", hospitalName);
         printf("\nEnter Doctor's age: ");
         scanf("%d", &age);
-        fprintf(fptr,"\nID: %d \nName: %s \nHospital Name: %s \nAge: %d \n", id, docName, hospitalName, age);
+        fprintf(ptr,"\n %d \t\t %s \t\t %s \t\t %d \t\t", id, docName, hospitalName, age);
     }
     fclose(ptr);
 }
