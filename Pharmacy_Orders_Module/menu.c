@@ -15,7 +15,7 @@ int main()
     switch(choice)
     {
         case 1:
-                ADD_ORDERS();
+                addOrders();
             break;
         case 2:
                 viewO();

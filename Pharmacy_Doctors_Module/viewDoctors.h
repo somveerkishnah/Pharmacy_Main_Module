@@ -1,6 +1,6 @@
 #ifdef VIEW_DOCTOR_FILE
 #define VIEW_DOCTOR_FILE
-void read()
+void view()
 {
    FILE *ptr;
     int c;
