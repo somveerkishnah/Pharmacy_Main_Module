@@ -6,9 +6,9 @@
 int deleteProducts()
 {  
     FILE *fptr1, *fptr2;
-    char file2[] ="productDetails.txt";
-    char file1[] ="temp.txt";
-    char curr;
+    char file1[] ="productDetails.txt";
+    char file2[] ="temp.txt";
+    char curr,ch;
     int del, line_number = 0;
     printf("Please enter the line number you want to delete : ");
     scanf("%d", &del);
@@ -25,8 +25,6 @@ int deleteProducts()
     }
     fclose(fptr1);
     fclose(fptr2);
- 
-   return 0;
-}
+    rename(file1)
 
 #endif
