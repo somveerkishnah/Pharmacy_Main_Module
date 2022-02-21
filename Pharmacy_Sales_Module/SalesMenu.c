@@ -1,9 +1,3 @@
-#include <stdio.h>
-#include"SalesView.h"
+#ifndef SALES_MENU_FILE
+#define SALES_MENU_FILE
 
-int main()
-{
-    printf("hello");
-
-    return 0;
-}
