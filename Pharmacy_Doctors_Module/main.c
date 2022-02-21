@@ -1,13 +1,7 @@
-#include <stdio.h>
-//#include"deleteDoctors.h"
-#include"viewDoctors.h"
-//#include"addDoctors.h"
+#include<stdio.h>
+#include<stdlib.h>
+#include"doctors_Menu.h"
 int main() 
 {
-  //delete();
-  view();
-  //add();
+  menu();
 }
-
-
-
