@@ -10,7 +10,7 @@ int menu()
   
   int choice, num;
  
-    printf("\n\n\n\n\n\t~~~~\tWELCOME TO Suppliers\t~~~~\t\n\n\n\n\n");
+    printf("\n\n\n\n\n\t~~~~\tWELCOME TO SUPPLIERS MENU\t~~~~\t\n\n\n\n\n");
    
       printf("\nChoose from the following:\n");
       printf("1. View Supplier\n");
