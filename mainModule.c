@@ -10,9 +10,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <string.h>
 
  #include "Pharmacy_Customer_Module/customer_Menu.h"
  #include "Pharmacy_Suppliers_Module/supplier_Menu.h"
+ #include "Pharmacy_Inventory_Module/Inventory_Menu.h"
 
 int main()
 {
@@ -71,12 +73,12 @@ int main()
               #include "Pharmacy_Orders_Module/orders_Menu.h"
               break;
         }
-
+      */
         case 7: {
-              #include "Pharmacy_Inventory_Module/Inventory_Menu.h"
+              Inventory_Menu();
               break;
         }
-      */
+      
         case 8: {
               exit(0);
         }
