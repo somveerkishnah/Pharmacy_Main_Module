@@ -6,3 +6,5 @@ Sanatogen        230
 Doliprane        129
 Cough-en         257
 Vaseline         206
+cd               298
+cd               429
