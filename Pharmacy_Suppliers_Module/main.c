@@ -4,6 +4,6 @@
 
 void main(){
 
-    menu();
+    supplier_Menu();
     
 }

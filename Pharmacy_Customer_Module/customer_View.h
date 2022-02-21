@@ -1,14 +1,13 @@
 #ifndef CUSTOMER_VIEW_FILE
 #define CUSTOMER_VIEW_FILE
-#include <stdio.h>
-#include <stdlib.h>
+
 
 void customerview()
 {
     FILE * ptr;
     int c;
     
-    ptr = fopen("customerview.txt", "r");
+    ptr = fopen("Pharmacy_Customer_Module/customerview.txt", "r");
 
     if(ptr == NULL)
     {
