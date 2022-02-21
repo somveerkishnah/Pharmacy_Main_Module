@@ -1,43 +1,9 @@
-<<<<<<< HEAD
-
-#include <stdio.h>
-#ifndef VIEW_Sales_FILE
-#define VIEW_Sales_FILE
-
-
-int  main()
-{
-    FILE *fptr;
-    int ch;
-
-    fptr=fopen("SalesDetail.txt","r");
-    if(fptr == NULL)
-    {
-        printf("File is not present\n");
-        
-    }
-    else
-    {
-        printf("file opened in read mode \n\n");
-    }
-    while((ch = fgetc(fptr))!=EOF)
-    {
-        printf("%c",ch);
-    }
-    fclose(fptr);
-    return 0;
- 
-}
-
-
-#endif
-=======
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
  
-int main(void)
+int main()
 {
     FILE *fileptr1, *fileptr2;
     char filechar[40];
@@ -108,4 +74,3 @@ int main(void)
     fclose(fileptr1);
     return 0;
 }
->>>>>>> 3b12ca1b3a4b3d4b05455e8dd61439af31e95512
