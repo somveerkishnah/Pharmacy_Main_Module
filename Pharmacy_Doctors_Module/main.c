@@ -1,10 +1,13 @@
 #include <stdio.h>
-#include"deleteDoctors.h"
-      int main() {
-        
-        delete();
-       
-      }
+//#include"deleteDoctors.h"
+#include"viewDoctors.h"
+//#include"addDoctors.h"
+int main() 
+{
+  //delete();
+  view();
+  //add();
+}
 
 
 
