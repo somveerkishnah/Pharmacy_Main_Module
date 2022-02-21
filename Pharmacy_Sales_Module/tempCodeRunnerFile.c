@@ -1,80 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#include <stdio.h>
-
-int main()
-{
-    FILE *fileptr1, *fileptr2;
-    char filename[40] = "SalesDetail.txt";
-    char ch;
-    int delete_line, temp = 1;
-
-    //open file in read mode
-    fileptr1 = fopen(filename, "r");
-    ch = getc(fileptr1);
-   while (ch != EOF)
-    {
-        printf("%c", ch);
-        ch = getc(fileptr1);
-    }
-    //rewind
-    rewind(fileptr1);
-    printf(" \n Enter line number of the line to be deleted:");
-    scanf("%d", &delete_line);
-    //open new file in write mode
-    fileptr2 = fopen("replica.c", "w");
-    ch = 'A';
-    while (ch != EOF)
-    {
-        ch = getc(fileptr1);
-        //except the line to be deleted
-        if (temp != delete_line)
-        {
-            //copy all lines in file replica.c
-            putc(ch, fileptr2);
-        }
-        if (ch == '\n')
-        {
-            temp++;
-        }
-    }
-    fclose(fileptr1);
-    fclose(fileptr2);
-    remove(filename);
-    //rename the file replica.c to original name
-    rename("replica.c", filename);
-    printf("\n The contents of file after being modified are as follows:\n");
-    fileptr1 = fopen(filename, "r");
-    ch = getc(fileptr1);
-    while (ch != EOF)
-    {
-        printf("%c", ch);
-        ch = getc(fileptr1);
-    }
-    fclose(fileptr1);
-    return 0;
-}
-=======
-=======
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
->>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
-=======
->>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
-=======
->>>>>>> 2502e02b05be733f5821dcb6fe81b36dc306ae34
-=======
->>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
 #ifndef SALES_MENU_FILE
 #define SALES_MENU_FILE
 
@@ -87,38 +10,6 @@ int main()
 
 int main()
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  Add();
-  Delete();
-  viewSales();
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#endif
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
-#endif
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
-#endif
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
-#endif
->>>>>>> be802d844c368331abe02158a11741026c557b07
-=======
-#endif
->>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
-=======
-#endif
->>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
-=======
-=======
->>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
   int choice;
     printf("1.View sales\n");
     printf("2.Add new Sales\n");
@@ -155,10 +46,3 @@ int main()
 
 }
 #endif
-
-
-
-<<<<<<< HEAD
->>>>>>> 2502e02b05be733f5821dcb6fe81b36dc306ae34
-=======
->>>>>>> 50ab66de8cba3bc11efa1e147234dab7c814b67b
