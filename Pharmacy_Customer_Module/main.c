@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main()
+
+int main()
 {
-    #include "customermenu.h"
+    #include "customerview.h"
     customerview();
+
+    return 0;
 }

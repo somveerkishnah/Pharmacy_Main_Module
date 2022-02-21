@@ -5,7 +5,7 @@
 
 void customerview()
 {
-    FILE *ptr;
+    FILE * ptr;
     int c;
     
     ptr = fopen("customerview.txt", "r");
