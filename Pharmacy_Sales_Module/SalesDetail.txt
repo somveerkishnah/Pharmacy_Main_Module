@@ -13,3 +13,5 @@ cd               429
 =======
 Vaseline         206
 >>>>>>> e1380e2c8457688510af8d7ea71f8f400f750408
+Xanax       65
+methadone       20
