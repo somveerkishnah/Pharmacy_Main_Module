@@ -11,6 +11,9 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+ #include "Pharmacy_Customer_Module/customer_Menu.h"
+ #include "Pharmacy_Suppliers_Module/supplier_Menu.h"
+
 int main()
 {
     float result;
@@ -37,18 +40,19 @@ int main()
  
       switch (choice)
       {
-        case 1: {
+        /*case 1: {
             #include "Pharmacy_Product_Module/product_menu.h"
             break;
-        }
+        }*/
           
         case 2: {
-             #include "Pharmacy_Customer_Module/customer_Menu.h";
+            
+             customer_Menu();
              break;
         }
-          
+        /*  
         case 3: {
-              #include "Pharmacy_Suppliers_Module/supplier_Menu.h"
+              
               break;
         }
 
@@ -71,7 +75,7 @@ int main()
               #include "Pharmacy_Inventory_Module/Inventory_Menu.h"
               break;
         }
-
+      */
         case 8: {
               exit(0);
         }
@@ -79,9 +83,9 @@ int main()
         
         default:
         printf("Wrong input, try again!\n");
-      }
+      }//switch
      
        
-     }
+     }//while
       return 0;
-}
+}//main
