@@ -21,6 +21,9 @@ int main()
                 viewO();
             break;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 04926a86ae3004cf99196a9145fc17b1c2232e12
     return 0;
 }
