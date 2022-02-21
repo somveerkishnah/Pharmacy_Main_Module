@@ -21,14 +21,14 @@
         if (!fptr1) 
 		{
                 printf(" File not found or unable to open the input file!!\n");
-                return 0;
+                return;
         }
         fptr2 = fopen(temp, "w"); // open the temporary file in write mode 
         if (!fptr2) 
 		{
                 printf("Unable to open a temporary file to write!!\n");
                 fclose(fptr1);
-                return 0;
+                return;
         }
         printf(" Input the line you want to remove : ");
         scanf("%d", &lno);
