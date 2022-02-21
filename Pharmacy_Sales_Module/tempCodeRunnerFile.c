@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main()
@@ -60,6 +61,8 @@ int main()
 >>>>>>> be802d844c368331abe02158a11741026c557b07
 =======
 >>>>>>> be802d844c368331abe02158a11741026c557b07
+=======
+>>>>>>> be802d844c368331abe02158a11741026c557b07
 #ifndef SALES_MENU_FILE
 #define SALES_MENU_FILE
 
@@ -79,6 +82,10 @@ int main()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+#endif
+>>>>>>> be802d844c368331abe02158a11741026c557b07
+=======
 #endif
 >>>>>>> be802d844c368331abe02158a11741026c557b07
 =======
