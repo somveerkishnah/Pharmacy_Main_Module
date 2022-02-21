@@ -19,15 +19,17 @@ int testDoctors()
 int menu()
 {
     float result;
-    int choice,num;
-
-    printf("\n\n\n\n\t ~~~~~~Welcome to Doctors\t~~~~~~\t\n\n\n\n\n\n");
-     while(true)
+  
+  int choice, num;
+ 
+    printf("\n\n\n\n\n\t~~~~\tWELCOME TO SUPPLIER\t~~~~\t\n\n\n\n\n");
+      
+      while(true)
     {
       printf("\nChoose from the following:\n");
-      printf("1. View Doctors\n");
-      printf("2. Delete Doctor Details\n");
-      printf("3. Add Doctors\n");
+      printf("1. View Supplier\n");
+      printf("2. Delete line\n");
+      printf("3. Add Supplier\n");
       printf("4. Exit");
  
  
@@ -59,5 +61,3 @@ int menu()
      }
       return 0;
 }
-}
-
