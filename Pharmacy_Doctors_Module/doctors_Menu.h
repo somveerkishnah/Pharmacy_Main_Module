@@ -22,7 +22,7 @@ int menu()
   
   int choice, num;
  
-    printf("\n\n\n\n\n\t~~~~\tWELCOME TO SUPPLIER\t~~~~\t\n\n\n\n\n");
+    printf("\n\n\n\n\n\t~~~~\tWELCOME TO DOCTORS\t~~~~\t\n\n\n\n\n");
       
       while(true)
     {
@@ -38,15 +38,15 @@ int menu()
       switch (choice)
       {
           case 1: {
-            viewsDoctors();
+            views();
             break;
          }
           case 2: {
-             deleteDoctors();
+             delete();
              break;
          }
           case 3: {
-              addDoctors();
+              add();
               break;
           }
 
