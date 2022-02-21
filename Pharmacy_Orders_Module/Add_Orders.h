@@ -25,6 +25,5 @@ void addOrders()
     fprintf(ptr,"\nQUANTITY : %d",quantity);
    
     fclose(ptr);
-
 }
 #endif
