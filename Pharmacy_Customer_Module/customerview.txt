@@ -1,4 +1,4 @@
-ID  Firstname Lastname
-24  Johnny    Gotit
-14  Eden      Row
-10  Bob       Smith
+ID  Firstname Lastname Item_Purhcased  Price
+24  Johnny    Gotit    Paracetamol     420
+14  Eden      Row      ....            ...
+10  Bob       Smith    ....            ...
