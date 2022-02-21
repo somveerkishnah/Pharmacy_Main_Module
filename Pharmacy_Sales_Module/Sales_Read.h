@@ -1,21 +1,26 @@
-#include<stdio.h>
-#include<stdlib.h>
+#ifndef VIEW_Sales_FILE
+#define VIEW_Sales_FILE
+#include <stdlib.h>
 
-int main(){
+void viewSales()
+{
+    FILE *fptr;
+    int ch;
 
-/*This code is used to read from the SalesDetail text file*/
-
-  FILE*fPointer;
-  fPointer = fopen("SalesDetail.txt","r");
-  char singleLine[200];
-
-  while(!feof(fPointer)){
-
-    fgets(singleLine, 200, fPointer);
-    puts(singleLine);
-  }
-
-  fclose(fPointer);
-
-return 0;
+    fptr=fopen("SalesDetail.txt","r");
+    if(fptr == NULL)
+    {
+        printf("File is not present\n");
+        
+    }
+    else
+    {
+        printf("file opened in read mode \n\n");
+    }
+    while((ch = fgetc(fptr))!=EOF)
+    {
+        printf("%c",ch);
+    }
+    fclose(fptr);
 }
+#endif
