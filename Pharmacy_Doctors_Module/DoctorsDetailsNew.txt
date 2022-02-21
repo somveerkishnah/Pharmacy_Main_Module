@@ -1,3 +1,6 @@
-d  Name      HospitalName   Age
- 1   Amelia    Mineral        28
- 7   Ross      Mayfair        51ÿ
+ID      Name        HospitalName        Age
+1       Amelia      Mineral              28
+7       Ross        Mayfair              51
+
+
+ 16 		 John 		 Wellkin 		 50 		

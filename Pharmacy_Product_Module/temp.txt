@@ -1,0 +1,7 @@
+ProductName         Unit Cost(Rs)       Quantity
+------------------------------------------------
+Paracetamol-1000       250                209             
+Vitamin_C              100                104
+Fervex                 270                120
+Vitamin_B12            365                35
+Aerius                 500                123

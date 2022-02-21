@@ -21,6 +21,5 @@ int main()
                 viewO();
             break;
     }
-
     return 0;
 }

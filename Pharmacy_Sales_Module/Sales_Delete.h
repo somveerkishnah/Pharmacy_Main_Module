@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int Delete()
 {
     FILE *fileptr1, *fileptr2;
     char filename[40];
