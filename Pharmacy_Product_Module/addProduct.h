@@ -3,7 +3,7 @@
 
 void addProducts()
 {
-    char productName[50];
+char productName[50];
     int quantity,i,n;
 
     printf("Enter the number of products you want to add: ");
@@ -28,4 +28,8 @@ void addProducts()
     }
     fclose(fptr);
 }
- #endif
+
+    
+
+
+#endif
