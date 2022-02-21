@@ -21,7 +21,7 @@ int Add()
    fprintf(fptr, "%s       ",name);
 
    printf("Enter Quantity Sold: ");
-   scanf("%d\n", &num);
+   scanf("%d", &num);
    fprintf(fptr, "%d\n",num);
 
    fclose(fptr);
