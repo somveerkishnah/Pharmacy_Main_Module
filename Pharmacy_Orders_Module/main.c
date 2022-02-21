@@ -15,10 +15,10 @@ int main()
     switch(choice)
     {
         case 1:
-                ADD_ORDERS()
+                ADD_ORDERS();
             break;
         case 2:
-                viewO()
+                viewO();
             break;
     }
 
