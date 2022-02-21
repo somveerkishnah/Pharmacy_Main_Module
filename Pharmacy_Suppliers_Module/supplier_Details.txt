@@ -5,10 +5,6 @@ Tokyo Tereskova     Kennedy St,Mahebourg      1875409
 Riu Jackson	        Edward St,Port Louis      7469802
 Raquel Murillo      Robertson St,Curepipe     8967130
 Alicia Sierra       Nimri St,Croisette        9712760
-<<<<<<< HEAD
 Monica Pedraza      Alvaro St,Souillac        7845902
-Victoria Mandella   St Louise                 78967887alexi        st pierre         6363568
-Daniel		london		776785765
-=======
-Monica Pedraza      Alvaro St,Souillac        7845902
->>>>>>> ea8e5670b35ec6ce768c975b9f985e3df07037dd
+Victoria Mandella   St Louise                 78967887
+alexi               st pierre                 6363568
