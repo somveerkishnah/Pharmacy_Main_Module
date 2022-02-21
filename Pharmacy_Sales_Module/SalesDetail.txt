@@ -5,7 +5,6 @@ Fervex           156
 Sanatogen        230
 Doliprane        129
 Cough-en         257
-<<<<<<< HEAD
 Vaseline         206
 cd               298
 cd               429
@@ -13,3 +12,4 @@ cd               429
 =======
 Vaseline         206
 >>>>>>> e1380e2c8457688510af8d7ea71f8f400f750408
+ÿ
