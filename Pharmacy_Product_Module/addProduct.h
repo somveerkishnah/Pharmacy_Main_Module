@@ -3,14 +3,14 @@
 
 void addProducts()
 {
-char productName[50];
+    char productName[50];
     int quantity,i,n;
 
     printf("Enter the number of products you want to add: ");
     scanf("%d",&n);
 
     FILE *fptr;
-    fptr = (fopen("Pharmacy_Product_Module/productDetails.txt", "a"));
+    fptr = (fopen("productDetails.txt", "a"));
 
     if(fptr==NULL){
         printf("Error!");

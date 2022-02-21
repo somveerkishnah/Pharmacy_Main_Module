@@ -1,7 +1,11 @@
 #include <stdio.h>
-#include "viewProduct.h"
+#include <stdlib.h>
+
 
 void main()
 {
-    products();
+    #include "addProduct.h"
+    #include "viewProduct.h"
+    viewProducts();
+    addProducts();
 }
