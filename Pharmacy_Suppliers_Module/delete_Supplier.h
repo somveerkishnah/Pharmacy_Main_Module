@@ -15,8 +15,9 @@
         char str[MAX], temp[] = "temp.txt";
 		printf("\n\n Delete a specific line from a file :\n");
 		printf("-----------------------------------------\n"); 
-		
-        fptr1 = fopen("supplier_Details.txt", "r");
+		printf("Input the name of the file to be opened:\n");
+        scanf("%s",fname);
+        fptr1 = fopen(fname, "r");
         if (!fptr1) 
 		{
                 printf(" File not found or unable to open the input file!!\n");
@@ -54,16 +55,14 @@
 /*------ Read the file ----------------*/
         fptr1=fopen(fname,"r"); 
             ch=fgetc(fptr1); 
-          printf(" Now the content of the file %s is : \n",fptr1); 
+          printf(" Now the content of the file %s is : \n",fname); 
           while(ch!=EOF) 
             { 
                 printf("%c",ch); 
                  ch=fgetc(fptr1); 
             }
-         fptr1 = fopen("supplier_Details.txt", "r");
         fclose(fptr1);
 /*------- End of reading ---------------*/
 
   } 
 #endif
-
