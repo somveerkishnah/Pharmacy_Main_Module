@@ -27,7 +27,7 @@ void addProducts()
         printf("Enter quantity: ");
         scanf("%d",&quantity);
 
-        fprintf(fptr,"%s \t\t\t\t%d \t\t\t\t%d\n",productName,cost,quantity);
+        fprintf(fptr,"\n%s \t\t%d \t\t%d\n",productName,cost,quantity);
     }
     fclose(fptr);
 }
