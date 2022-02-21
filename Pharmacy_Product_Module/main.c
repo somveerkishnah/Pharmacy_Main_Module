@@ -6,6 +6,6 @@ void main()
 {
     #include "addProduct.h"
     #include "viewProduct.h"
-    viewProducts();
+    //viewProducts();
     addProducts();
 }
