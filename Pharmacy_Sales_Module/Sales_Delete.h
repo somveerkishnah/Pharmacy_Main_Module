@@ -1,56 +1,76 @@
 #include <stdio.h>
-
-int main()
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+ 
+int Delete()
 {
-    FILE *ptr1, *ptr2;
-    char filename[40];
-    char ch;
+    FILE *fileptr1, *fileptr2;
+    char filechar[40];
+    char c;
     int delete_line, temp = 1;
-
-    printf("Enter file name: ");
-    scanf("%s", filename);
-    //open file in read mode
-    ptr1 = fopen("SalesDetail", "r");
-    ch = getc(ptr1);
-   while (ch != EOF)
+ 
+    
+    fileptr1 = fopen("SalesDetail.txt", "r");
+    c = getc(fileptr1);
+    //print the contents of file .
+    while (c != EOF)
     {
-        printf("%c", ch);
-        ch = getc(ptr1);
+        printf("%c", c);
+        c = getc(fileptr1);
     }
-    //rewind
-    rewind(ptr1);
-    printf(" \n Enter line number of the line to be deleted:");
+    printf(" \n Enter line number to be deleted and replaced");
     scanf("%d", &delete_line);
-    //open new file in write mode
-    ptr2 = fopen("SalesDetail", "w");
-    ch = 'A';
-    while (ch != EOF)
+    //take fileptr1 to start point.
+    rewind(fileptr1);
+    //open replica.c in write mode
+    fileptr2 = fopen("replica.c", "w");
+    c = getc(fileptr1);
+    while (c != EOF)
     {
-        ch = getc(ptr1);
-        //except the line to be deleted
-        if (temp != delete_line)
-        {
-            //copy all lines in file replica.c
-            putc(ch, ptr2);
-        }
-        if (ch == '\n')
+        if (c == 'n')
         {
             temp++;
         }
+        //till the line to be deleted comes,copy the content to other
+        if (temp != delete_line)
+        {
+            putc(c, fileptr2);
+        }
+        else
+        {
+            while ((c = getc(fileptr1)) != 'n')
+            {
+            }
+            //read and skip the line ask for new text
+            printf("Enter new text");
+            //flush the input stream
+            fflush(stdin);
+            putc('n', fileptr2);
+            //put 'n' in new file
+            while ((c = getchar()) != 'n')
+                putc(c, fileptr2);
+            //take the data from user and place it in new file
+            fputs("n", fileptr2);
+            temp++;
+        }
+        //continue this till EOF is encountered
+        c = getc(fileptr1);
     }
-    fclose(ptr1);
-    fclose(ptr2);
-    remove(filename);
-    //rename the file replica.c to original name
-    rename("replica.c", filename);
-    printf("\n The contents of file after being modified are as follows:\n");
-    ptr1 = fopen(filename, "r");
-    ch = getc(ptr1);
-    while (ch != EOF)
+    fclose(fileptr1);
+    fclose(fileptr2);
+    remove(filechar);
+    rename("replica.c", filechar);
+    fileptr1 = fopen(filechar, "r");
+    //reads the character from file
+    c = getc(fileptr1);
+    //until last character of file is encountered
+    while (c != EOF)
     {
-        printf("%c", ch);
-        ch = getc(ptr1);
+        printf("%c", c);
+        //all characters are printed
+        c = getc(fileptr1);
     }
-    fclose(ptr1);
+    fclose(fileptr1);
     return 0;
 }
