@@ -19,6 +19,12 @@ void customerview()
         printf("\nFile opened in read mode\n\n");
     }
 
+    while( (c = fgetc(ptr)) != EOF)
+    {
+        printf("%c", c);
+    }
+    printf("\n\n");
+
 }
 
 #endif
