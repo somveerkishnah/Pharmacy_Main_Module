@@ -16,11 +16,10 @@ int testDoctors()
 #include <stdlib.h>
 #include <stdbool.h>
  
-void output(float);
- 
-int supplier_Menu()
+
+ void doctors_Menu()
 {
-    float result;
+    
   
   int choice, num;
  
@@ -30,12 +29,12 @@ int supplier_Menu()
     {
       printf("\nChoose from the following:\n");
       printf("1. View Doctors\n");
-      printf("2. ADD Doctors\n");
+      printf("2. Add Doctors\n");
       printf("3. Delete Doctors\n");
       printf("4. Exit\n");
       printf("5. Return to main menu\n");
  
- 
+      printf("Enter choice\n");
       scanf("%d",&choice);
  
       switch (choice)
