@@ -11,28 +11,16 @@ int testDoctors()
 // Menu-Driven program
 // using Switch-case
 #include "viewDoctors.h"
-#include "deleteDoctors.h"
 #include "addDoctors.h"
-#include<stdio.h>
-#include<stdbool.h>
-
-int menu()
+#include "deleteDoctors.h"
+#include <stdlib.h>
+#include <stdbool.h>
+ 
+void output(float);
+ 
+int supplier_Menu()
 {
     float result;
-<<<<<<< HEAD
-    int choice,num;
-
-    printf("\n\n\n\n\t ~~~~~~Welcome to Doctors\t~~~~~~\t\n\n\n\n\n\n");
-     while(true)
-    {
-      printf("\nChoose from the following:\n");
-      printf("1. View Doctors\n");
-      printf("2. Delete Doctor Details\n");
-      printf("3. Add Doctors\n");
-      printf("4. Exit");
- 
- 
-=======
   
   int choice, num;
  
@@ -42,58 +30,35 @@ int menu()
     {
       printf("\nChoose from the following:\n");
       printf("1. View Doctors\n");
-      printf("2. Delete Doctor's Detail\n");
-      printf("3. Add Doctor\n");
+      printf("2. ADD Doctors\n");
+      printf("3. Delete Doctors\n");
       printf("4. Exit\n");
+      printf("5. Return to main menu\n");
  
-      printf("Enter your choice:\n");
->>>>>>> ea975634888169a7cf57342e25e882221d83df8f
+ 
       scanf("%d",&choice);
  
       switch (choice)
       {
           case 1: {
-<<<<<<< HEAD
-            viewsDoctors();
-            break;
-         }
-          case 2: {
-             deleteDoctors();
-             break;
-         }
-          case 3: {
-              addDoctors();
-              break;
-          }
-
-          case 4: {
-              exit(0);
-          }
-         
-          default:
-          printf("Wrong input, try again!\n");
-     
-       }
-     }
-      return 0;
-}
-}
-=======
             view();
             break;
          }
           case 2: {
-             delete();
+             add();
              break;
          }
           case 3: {
-              add();
+              delete();
               break;
           }
->>>>>>> ea975634888169a7cf57342e25e882221d83df8f
 
           case 4: {
               exit(0);
+          }
+
+          case 5:{
+              return 0;
           }
          
           default:
