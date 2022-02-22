@@ -56,9 +56,9 @@ int testDoctors()
               exit(0);
           }
 
-          case 5:{
-              return 0;
-          }
+          //case 5:{
+              //return 0;
+          //}
          
           default:
           printf("Wrong input, try again!\n");
