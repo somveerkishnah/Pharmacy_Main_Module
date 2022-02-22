@@ -3,12 +3,10 @@
 int Delete()
 {
     FILE *fileptr1, *fileptr2;
-    char filename[40];
+    char filename[40] = "SalesDetail.txt";
     char ch;
     int delete_line, temp = 1;
 
-    printf("Enter file name: ");
-    scanf("%s", filename);
     //open file in read mode
     fileptr1 = fopen(filename, "r");
     ch = getc(fileptr1);

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "customer_View.h"
 
 int main()
 {
-    #include "customerview.h"
     customerview();
 
     return 0;
