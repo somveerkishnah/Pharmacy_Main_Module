@@ -6,6 +6,48 @@
 #include "Sales_ADD.h"
 #include "Sales_Delete.h"
 #include "Sales_Read.h"
+<<<<<<< HEAD
+
+
+int main()
+{
+  int choice;
+    printf("1.View sales\n");
+    printf("2.Add new Sales\n");
+    printf("3.Delete sales\n");
+    printf("0.exit");
+    do{
+        printf("\nEnter your choice :");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+            {
+               viewSales();
+               break;
+            }
+            case 2:
+            {
+              Add();
+              break; 
+            }
+            case 3:
+            {
+              Delete();
+              break;
+            }
+            default:
+            {
+                printf("Invalid choice");
+            }
+
+        }
+        
+      }while(choice !=0);
+
+}
+#endif
+=======
 
 
 int main()
@@ -49,3 +91,4 @@ int main()
 
 
 
+>>>>>>> ea975634888169a7cf57342e25e882221d83df8f

@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"doctors_Menu.h"
-int main() 
+void main() 
 {
-  menu();
+  doctors_Menu();
+  
 }
+

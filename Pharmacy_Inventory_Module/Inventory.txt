@@ -1,15 +1,52 @@
-
 SALES TXT:
 Products         Quantity   
 
-Immodium         104
+Immodium         126
 Fervex           156
 Sanatogen        230
 Doliprane        129
 Cough-en         257
 Vaseline         206
+Efferalgan       467
+Vaseline         206
+
+<<<<<<< HEAD
+=======
+=======
+Vaseline         206
+>>>>>>> e1380e2c8457688510af8d7ea71f8f400f750408
+Xanax       65
+methadone       20
+panadol       500
+w       500
+y       500
+j       0
+Panadol       32759
+Extra       0
+>>>>>>> ea975634888169a7cf57342e25e882221d83df8f
 
 ORDERS TXT:
+ORDER 1
 DATE : 25/02/2022 
 ORDER : Paracetamol
 QUANTITY : 50
+
+ORDER 2
+DATE : 17/02/2022 
+ORDER : Paracetamol
+QUANTITY : 85
+
+ORDER 3
+DATE : 28/01/2022 
+ORDER : Paracetamol
+QUANTITY : 150
+
+ORDER 4
+DATE : 20/01/2022 
+ORDER : Paracetamol
+QUANTITY : 120
+
+ORDER 5
+DATE : 18/01/2022 
+ORDER : Paracetamol
+QUANTITY : 235

@@ -1,8 +1,16 @@
-ProductName         Unit Cost(Rs)       Quantity
+ProductName          Unit Cost(Rs)        Quantity
 ------------------------------------------------
+<<<<<<< HEAD
+Paracetamol-1000        250                 209             
+Vitamin_C               100                 104
+Doliprane-500           300                 302                           
+Fervex                  270                 120
+Vitamin_B12             365                 35
+=======
 Paracetamol-1000       250                209             
 Vitamin_C              100                104
 Fervex                 270                120
 Vitamin_B12            365                35
 Aerius                 500                123
 Anafranil 		2 		50
+>>>>>>> ea975634888169a7cf57342e25e882221d83df8f

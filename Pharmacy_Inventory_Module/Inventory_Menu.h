@@ -1,35 +1,39 @@
-#ifndef VIEW_INVENTORY_H_INCLUDED
-#define VIEW_INVENTORY_H_INCLUDED
-void inventoryView(){
-    FILE *ptr;
-    FILE *ptr2;
-    FILE *ptr3;
-    ptr=fopen("Pharmacy_Sales_Module/SalesDetail.txt","r");
-    ptr2=fopen("Pharmacy_Orders_Module/orders.txt","r");
-    ptr3=fopen("Inventory.txt","a");
-    char data[]="SALES TXT:";
-    if(strlen(data)>0){
-        fputs(data,ptr3);
-        fputs("\n",ptr3);
-    }
-    char c;
-    while((c=fgetc(ptr))!= EOF){
-        fputc(c,ptr3);
-        printf("%c ",c);
-    }
-    fclose(ptr);
-    char data2[]="ORDERS TXT:";
-    if(strlen(data2)>0){
-        fputs("\n",ptr3);
-        fputs(data2,ptr3);
-        fputs("\n",ptr3);
-    }
-    char c2;
-    while((c2=fgetc(ptr2))!= EOF){
-        fputc(c2,ptr3);
-        printf("%c ",c2);
-    }
-    fclose(ptr2);
-    fclose(ptr3);
+#ifndef INVENTORY_MENUH_INCLUDED
+#define INVENTORY_MENU_H_INCLUDED
+#include "ViewInventory.h"
+void Inventory_Menu(){
+  
+  int choice, num;
+ 
+    printf("\n\n\n\n\n\t~~~~\tWELCOME TO INVENTORY\t~~~~\t\n\n");
+      
+      while(true){
+      printf("\n\n\nChoose from the following:\n");
+      printf("1. View Inventory\n");
+      printf("2. Exit Program completely\n");
+      printf("3. Return to Main Menu\n");
+      printf("\n  CHOICE: ");
+      scanf("%d",&choice);
+ 
+      switch (choice)
+      {
+          case 1: {
+            inventoryView();
+            break;
+         }
+          case 2: {
+             exit(0);
+             break;
+         }
+         
+          case 3:{
+              return;
+          }
+          default:
+          printf("Wrong input, try again!\n");
+     
+       }
+     }
+      return 0;
 }
 #endif
