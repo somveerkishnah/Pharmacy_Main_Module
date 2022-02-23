@@ -1,8 +1,6 @@
 ID      Name        HospitalName        Age
-1       Amelia      Mineral              28
-7       Ross        Mayfair              51
-
-
- 16 		 John 		 Wellkin 		 50 		
- 26 		 Rollo 		 Welfare 		 0 		
- 15 		 Elowa 		 Lifecare 		 0 		
+1       Amelia      Mineral             28
+7       Ross        Mayfair             51
+16 		John        Wellkin             50 		
+26 		Rollo 		Welfare             30 		
+15      Elowa       Lifecare            40 		
