@@ -11,14 +11,15 @@ int testDoctors()
 // Menu-Driven program
 // using Switch-case
 #include "viewDoctors.h"
-#include "deleteDoctors.h"
 #include "addDoctors.h"
-#include<stdio.h>
-#include<stdbool.h>
+#include "deleteDoctors.h"
+#include <stdlib.h>
+#include <stdbool.h>
+ 
 
-int menu()
+ void menu()
 {
-    float result;
+    
   
   int choice, num;
  
@@ -28,11 +29,12 @@ int menu()
     {
       printf("\nChoose from the following:\n");
       printf("1. View Doctors\n");
-      printf("2. Delete Doctor's Detail\n");
-      printf("3. Add Doctor\n");
+      printf("2. Add Doctors\n");
+      printf("3. Delete Doctors\n");
       printf("4. Exit\n");
+      printf("5. Return to main menu\n");
  
-      printf("Enter your choice:\n");
+      printf("Enter choice\n");
       scanf("%d",&choice);
  
       switch (choice)
@@ -42,17 +44,21 @@ int menu()
             break;
          }
           case 2: {
-             delete();
+             add();
              break;
          }
           case 3: {
-              add();
+              delete();
               break;
           }
 
           case 4: {
               exit(0);
           }
+
+          //case 5:{
+              //return 0;
+          //}
          
           default:
           printf("Wrong input, try again!\n");
