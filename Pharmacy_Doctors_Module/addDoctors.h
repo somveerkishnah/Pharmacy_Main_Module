@@ -26,7 +26,7 @@ void add()
         scanf("%s", hospitalName);
         printf("\nEnter Doctor's age: ");
         scanf("%d", &age);
-        fprintf(ptr,"\n %d \t\t %s \t\t %s \t\t %d \t\t", id, docName, hospitalName, age);
+        fprintf(ptr,"\n%d\t\t%s\t\t%s\t\t\t%d", id, docName, hospitalName, age);
     }
     fclose(ptr);
 }
