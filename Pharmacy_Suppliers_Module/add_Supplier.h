@@ -16,8 +16,10 @@ void readFile(FILE *fptr)
 void addsupplier()
 {
     int num;
-
-    char dataToAppend[BUFFER_SIZE];
+     char name[20];
+     char cat[20];
+    char rev[10];
+   // char dataToAppend[BUFFER_SIZE];
 
     printf("Enter the number of suppliers that you want to add info:\n");
     scanf("%d",&num);
@@ -30,12 +32,23 @@ void addsupplier()
         printf("Error!");
         exit(EXIT_FAILURE);
     }
+    printf("\n");
+     for(int i=0;i<num;++i)
+    {
+        printf("Enter Supplier Name:\n");
+        scanf("%s",name);
+        printf("Enter Supplier Address:\n");
+        scanf("%s",cat);
+        printf("Enter Supplier Telephone number:\n");
+        scanf("%s",rev);
+        fprintf(fptr,"%s \t\t %s \t %s\n",name,cat,rev);
+    } 
 
-   printf("Enter data to append\n");
+  /* printf("Enter data to append\n");
    fflush(stdin);
    fgets(dataToAppend,BUFFER_SIZE,stdin);
    fputs(dataToAppend,fptr);
-   printf("\n");
+   printf("\n");*/
 
 
    fptr=freopen("Supplier_Details.txt","r",fptr);
