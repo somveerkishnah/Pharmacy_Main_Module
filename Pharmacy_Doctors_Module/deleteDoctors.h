@@ -1,4 +1,4 @@
-/*void delete()
+void delete()
 {
   FILE *fp1, *fp2;
         //consider 40 character string to store filename
@@ -53,8 +53,8 @@
             c = getc(fp1);
         }
         fclose(fp1);
-}*/
-#ifndef DELETE_SUPPLIER_FILE
+}
+/*#ifndef DELETE_SUPPLIER_FILE
 #define DELETE_SUPPLIER_FILE
 
 #include <stdio.h>
@@ -97,7 +97,7 @@
             if (!feof(fptr1)) 
             {
                 ctr++;
-                /* skip the line at given line number */
+                
                 if (ctr != lno) 
                 {
                     fprintf(fptr2, "%s", str);
@@ -108,7 +108,7 @@
         fclose(fptr2);
         remove(fname);  		// remove the original file 
         rename(temp, fname); 	// rename the temporary file to original name
-/*------ Read the file ----------------*/
+
         fptr1=fopen(fname,"r"); 
             ch=fgetc(fptr1); 
           printf(" Now the content of the file %s is : \n",fname); 
@@ -118,7 +118,7 @@
                  ch=fgetc(fptr1); 
             }
         fclose(fptr1);
-/*------- End of reading ---------------*/
+
 
   } 
-#endif
+#endif*/
