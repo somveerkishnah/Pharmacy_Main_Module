@@ -40,8 +40,8 @@ void addsupplier()
         printf("Enter Supplier Address:\n");
         scanf("%s",cat);
         printf("Enter Supplier Telephone number:\n");
-        scanf("%s",rev);
-        fprintf(fptr,"%s \t\t %s \t %s\n",name,cat,rev);
+        scanf("%d",rev);
+        fprintf(fptr,"%s \t\t %s \t %d\n",name,cat,rev);
     } 
 
   /* printf("Enter data to append\n");
