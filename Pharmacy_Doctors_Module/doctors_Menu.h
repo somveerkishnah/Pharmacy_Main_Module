@@ -17,7 +17,7 @@ int testDoctors()
 #include <stdbool.h>
  
 
- void menu()
+ void doctors_Menu()
 {
     
   
