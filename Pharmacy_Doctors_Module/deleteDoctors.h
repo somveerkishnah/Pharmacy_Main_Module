@@ -1,4 +1,4 @@
-void delete()
+/*void delete()
 {
   FILE *fp1, *fp2;
         //consider 40 character string to store filename
@@ -53,8 +53,8 @@ void delete()
             c = getc(fp1);
         }
         fclose(fp1);
-}
-/*#ifndef DELETE_SUPPLIER_FILE
+}*/
+#ifndef DELETE_SUPPLIER_FILE
 #define DELETE_SUPPLIER_FILE
 
 #include <stdio.h>
@@ -121,4 +121,4 @@ void delete()
 
 
   } 
-#endif*/
+#endif
