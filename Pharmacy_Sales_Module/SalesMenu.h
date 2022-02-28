@@ -3,12 +3,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Sales_ADD.h"
+#include "Sales_add.h"
 #include "Sales_Delete.h"
 #include "Sales_Read.h"
 
 
-int main()
+int Sales_Menu()
 {
   int choice;
     printf("1.View sales\n");
@@ -45,11 +45,7 @@ int main()
       }while(choice !=0);
 
 }
-<<<<<<< HEAD
-#endif
-=======
 #endif
 
 
 
->>>>>>> ea975634888169a7cf57342e25e882221d83df8f
