@@ -63,12 +63,12 @@ int main()
               #include "Pharmacy_Doctors_Module/doctors_Menu.h"
               break;
         }
-
+       */   
         case 5: {
-              #include "Pharmacy_Sales_Module/sales_Menu.h"
+              Sales_Menu();
               break;
         }
-
+      /*
         case 6: {
               #include "Pharmacy_Orders_Module/orders_Menu.h"
               break;
