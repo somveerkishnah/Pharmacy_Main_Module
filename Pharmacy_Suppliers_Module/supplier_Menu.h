@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
  
-void output(float);
+//void output(float);
  
 int supplier_Menu()
 {
